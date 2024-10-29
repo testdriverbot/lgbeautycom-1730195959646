@@ -1,0 +1,35 @@
+version: 4.0.77
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the "Contact Us" link in the footer.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+      - command: hover-text
+        text: Contact Us
+        description: link in the footer
+        action: click
+  - prompt: Click on the "Contact Us" link in the footer.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+      - command: hover-text
+        text: Contact Us
+        description: link in the footer
+        action: click
+  - prompt: Click on the "Contact Us" link in the footer.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+      - command: hover-text
+        text: Contact Us
+        description: link in the footer
+        action: click
