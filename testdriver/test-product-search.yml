@@ -1,0 +1,41 @@
+version: 4.0.77
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the search icon in the header.
+    commands:
+      - command: hover-image
+        description: search icon in the header
+        action: click
+  - prompt: Click on the search icon in the header.
+    commands:
+      - command: hover-image
+        description: search icon in the header
+        action: click
+  - prompt: Enter "facial mask" in the search bar.
+    commands:
+      - command: hover-image
+        description: search icon in the header
+        action: click
+      - command: type
+        text: facial mask
+  - prompt: Enter "facial mask" in the search bar.
+    commands:
+      - command: hover-text
+        text: Search
+        description: search bar
+        action: click
+      - command: type
+        text: facial mask
+  - prompt: Enter "facial mask" in the search bar.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+      - command: type
+        text: facial mask
