@@ -1,0 +1,39 @@
+version: 4.0.77
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: hover-text
+        text: SHOP NOW
+        description: button on the webpage
+        action: click
+  - prompt: Click on the social media icons in the footer.
+    commands:
+      - command: scroll-until-text
+        text: Follow Us
+        direction: down
+      - command: hover-text
+        text: Facebook
+        description: Facebook icon in the footer
+        action: click
+  - prompt: Click on the social media icons in the footer.
+    commands:
+      - command: scroll
+        direction: down
+      - command: scroll-until-text
+        text: Follow Us
+        direction: down
+      - command: hover-text
+        text: Facebook
+        description: Facebook icon in the footer
+        action: click
+  - prompt: Click on the social media icons in the footer.
+    commands:
+      - command: scroll
+        direction: down
+      - command: scroll-until-text
+        text: Follow Us
+        direction: down
+      - command: hover-text
+        text: Facebook
+        description: Facebook icon in the footer
+        action: click
