@@ -1,0 +1,30 @@
+version: 4.0.77
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Select a product on the product page.
+    commands:
+      - command: hover-text
+        text: DR GROOT
+        description: product link in the header
+        action: click
+  - prompt: Click "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Add to Cart
+        description: button to add the product to the shopping cart
+        action: click
+  - prompt: Click "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Add to Cart
+        description: button to add the product to the shopping cart
+        action: click
+  - prompt: Click "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Add to Cart
+        description: button to add the product to the shopping cart
+        action: click
