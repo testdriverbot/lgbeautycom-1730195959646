@@ -1,0 +1,19 @@
+version: 4.0.77
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Scroll to the footer section.
+    commands:
+      - command: scroll-until-text
+        text: Privacy Statement
+        direction: down
+  - prompt: Scroll to the footer section.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer section.
+    commands:
+      - command: scroll
+        direction: down
